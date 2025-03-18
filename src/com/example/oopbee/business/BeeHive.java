@@ -14,7 +14,7 @@ import java.util.Random;
 public class BeeHive {
     private ArrayList<Bee> listBee;
 
-    private static final Random rand = new Random();
+    private static final SecureRandom rand = new SecureRandom();
 
     public void init() {
         //create list of 10 bees  of Queen, Drone and Worker types
