@@ -59,7 +59,7 @@ public abstract class Bee {
     }
 
     //attack this bee
-    private static final Random rand = new Random();
+    private static final SecureRandom rand = new SecureRandom();
     
     public void damage() {
 
